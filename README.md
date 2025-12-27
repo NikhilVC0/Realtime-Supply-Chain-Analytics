@@ -1,7 +1,6 @@
 # Real-Time Logistics & Supply Chain Tracking Analytics Pipeline 🚛📊
 
-**Subject:** Real Time Analytics  
-**Course:** MCA (Data Science)  
+**Subject:** Real Time Analytics   
 
 ## 📖 Project Overview
 This project implements a **Real-Time Logistics & Supply Chain Tracking Analytics System**. It streams shipment event data, processes it in real-time, stores it for historical analysis, and visualizes key performance metrics like delivery delays, route bottlenecks, and vehicle utilization.
