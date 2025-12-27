@@ -29,26 +29,20 @@ The pipeline demonstrates the integration of **Big Data streaming** (Kafka) with
 
 ## ⚙️ Setup & Installation
 
-### 1. Prerequisites
+###  Prerequisites
 * Java JDK 11+
-* Apache Kafka (Binary)
+* Apache Kafka-3.9 (Binary)
 * PostgreSQL
-* Maven
+* Eclipse & Maven
+* Python 3.11+
+* gcc (use Visual Studio Setup or MSYS2 for installation)
 
-### 2. Database Setup (PostgreSQL)
-Create the database and table using the SQL script:
-```sql
-CREATE DATABASE supply_chain_analytics;
+### Read [setup.md](#-/setup.md) for Installation and setup.
 
-CREATE TABLE shipments (
-    shipment_id VARCHAR(50) PRIMARY KEY,
-    event_time TIMESTAMP,
-    origin_city VARCHAR(100),
-    destination_city VARCHAR(100),
-    vehicle_id VARCHAR(50),
-    route_id VARCHAR(50),
-    shipment_status VARCHAR(50),
-    delay_minutes INTEGER,
-    distance_km DOUBLE PRECISION,
-    eta_minutes INTEGER
-);
+ 
+---
+* Apache Dashboard
+![Apache Superset Dashboard](/RTA_apache_Dashboard.jpg)
+
+
+
