@@ -191,7 +191,7 @@ Once DB Connection Successful, create suitable charts and dashboard as per your 
 
 | Issue | Solution |
 |------|----------|
-| Kafka connection refused | Start Zookeeper first |
+| Kafka connection refused | Start Zookeeper server first and Kafka server|
 | Database connection | Make sure Db is public and all config matchs with database properties in PgAdmn and Apache Superset 
 | Postgres role missing | Verify DB username |
 | Serializer error | Add `jackson-databind` |
